@@ -68,6 +68,34 @@
             // 
             this.cboEstados.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboEstados.FormattingEnabled = true;
+            this.cboEstados.Items.AddRange(new object[] {
+            "AC",
+            "AL",
+            "AP",
+            "AM",
+            "BA",
+            "CE",
+            "DF",
+            "ES",
+            "GO",
+            "MA",
+            "MT",
+            "MS",
+            "MG",
+            "PA",
+            "PB",
+            "PR",
+            "PE",
+            "PI",
+            "RJ",
+            "RN",
+            "RS",
+            "RO",
+            "RR",
+            "SC",
+            "SP",
+            "SE",
+            "TO"});
             this.cboEstados.Location = new System.Drawing.Point(154, 28);
             this.cboEstados.Name = "cboEstados";
             this.cboEstados.Size = new System.Drawing.Size(186, 26);
@@ -82,6 +110,7 @@
             this.btnREstados.TabIndex = 2;
             this.btnREstados.Text = "_";
             this.btnREstados.UseVisualStyleBackColor = true;
+            this.btnREstados.Click += new System.EventHandler(this.btnREstados_Click);
             // 
             // lblEstados
             // 
@@ -161,6 +190,7 @@
             this.btnRNorte.TabIndex = 10;
             this.btnRNorte.Text = "_";
             this.btnRNorte.UseVisualStyleBackColor = true;
+            this.btnRNorte.Click += new System.EventHandler(this.btnRNorte_Click);
             // 
             // lblNorte
             // 
@@ -190,6 +220,7 @@
             this.btnRNordeste.TabIndex = 13;
             this.btnRNordeste.Text = "_";
             this.btnRNordeste.UseVisualStyleBackColor = true;
+            this.btnRNordeste.Click += new System.EventHandler(this.btnRNordeste_Click);
             // 
             // lblNordeste
             // 
@@ -219,6 +250,7 @@
             this.btnRCo.TabIndex = 16;
             this.btnRCo.Text = "_";
             this.btnRCo.UseVisualStyleBackColor = true;
+            this.btnRCo.Click += new System.EventHandler(this.btnRCo_Click);
             // 
             // lblCo
             // 
@@ -248,6 +280,7 @@
             this.btnRSudeste.TabIndex = 19;
             this.btnRSudeste.Text = "_";
             this.btnRSudeste.UseVisualStyleBackColor = true;
+            this.btnRSudeste.Click += new System.EventHandler(this.btnRSudeste_Click);
             // 
             // lblSudeste
             // 
@@ -277,6 +310,7 @@
             this.btnRSul.TabIndex = 22;
             this.btnRSul.Text = "_";
             this.btnRSul.UseVisualStyleBackColor = true;
+            this.btnRSul.Click += new System.EventHandler(this.btnRSul_Click);
             // 
             // lblSul
             // 
